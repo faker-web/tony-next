@@ -1,0 +1,18 @@
+.login-tabs-box {
+  padding-top: 24px;
+}
+
+.register-text {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 56px;
+  margin-top: 56px;
+  font-family: 'PingFang SC';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  text-align: center;
+  color: #545BFF;
+}

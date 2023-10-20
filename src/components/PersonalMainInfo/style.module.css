@@ -1,0 +1,59 @@
+.user-box {
+  display: flex;
+}
+
+.user-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  font-family: 'PingFang SC';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 22px;
+  color: #FFFFFF;
+  border-radius: 50%;
+  background-color: #608cfd;
+}
+
+.user-icon-small {
+  font-size: 12px;
+  width: 32px;
+  height: 32px;
+}
+
+.user-name-phone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 8px;
+}
+
+.user-name {
+  font-family: 'PingFang SC';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  color: #333333;
+}
+
+.user-name-small {
+  font-size: 12px;
+}
+
+.user-phone {
+  margin-top: 2px;
+  font-family: 'PingFang SC';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #AFAFAF;
+}
+
+.user-phone-small {
+  size: 10px;
+}

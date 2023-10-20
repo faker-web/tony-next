@@ -1,0 +1,48 @@
+.select-box {
+  display: flex;
+  align-items: center;
+}
+
+.select-label-text {
+  font-family: 'PingFang SC';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #333333;
+}
+
+.select-boy,.select-girl {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  background: #EFF6FF;
+  border-radius: 13px;
+  font-family: 'PingFang SC';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #4693DA;
+}
+
+.select-girl {
+  margin-left: 16px;
+  background: #FFF3F8;
+  color: #DA6464;
+}
+
+.select-boy-selected {
+  border: 2px solid #ADD8FF;
+}
+
+.select-girl-selected {
+  border: 2px solid #ffd3d3;
+}

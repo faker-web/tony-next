@@ -1,0 +1,48 @@
+.box {
+  position: relative;
+}
+
+.select-box {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  min-width: 85px;
+}
+
+.select-value {
+  font-family: 'PingFang SC';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 22px;
+  color: #333333;
+  margin-right: 3px;
+}
+
+.option-box {
+  position: absolute;
+  z-index: 88;
+}
+
+.select-img {
+  position: relative;
+  top: 2px;
+}
+
+.select-img-rotated {
+  transform: rotate(180deg);
+  position: relative;
+  top: -2px;
+}
+
+.select-title-box {
+  display: flex;
+  align-items: center;
+}
+
+.expand-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+}

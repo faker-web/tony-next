@@ -1,0 +1,63 @@
+.title-bar-box {
+  display: flex;
+  align-items: center;
+  padding: 26px 20px;
+  background: #fff;
+  border-radius: 22px;
+}
+
+.title-bar-user-box {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.user-age {
+  margin-left: 24px;
+  font-family: 'PingFang SC';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: #333333;
+}
+
+.user-sex {
+  margin-left: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 16px;
+  background: #FFF3F8;
+  border-radius: 990px;
+  font-family: 'PingFang SC';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 12px;
+  color: #DA6464;
+}
+
+.user-title {
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  height: 16px;
+  padding:0 6px;
+  background: #f1f5ff;
+  border-radius: 990px;
+  font-family: 'PingFang SC';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 22px;
+  color: #333333;
+}
+
+.vip-tag-box {
+  margin-left: 12px;
+  margin-right: 16px;
+}

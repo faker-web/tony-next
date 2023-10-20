@@ -1,0 +1,9 @@
+.box {
+  display: flex;
+  margin-top: 22px;
+  margin-bottom: 14px;
+}
+
+.action-box {
+  flex: 1;
+}

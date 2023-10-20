@@ -1,0 +1,60 @@
+.box {
+  background: #FFFFFF;
+  border-radius: 22px;
+  padding: 26px;
+  width: 100%;
+}
+
+.title-box {
+  display: flex;
+  align-items: center;
+}
+
+.title-box-name {
+  margin-right: 10px;
+  font-family: 'PingFang SC';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #333333;
+}
+
+.title-box-num {
+  margin-right: 16px;
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #797E8A;
+}
+
+.title-operation-box {
+  margin-right: 16px;
+  display: flex;
+  justify-content: space-between;
+  background: #EBECFF;
+  border-radius: 33px;
+  padding: 4.5px 12px;
+}
+
+.title-operation-add {
+  margin: 0 auto;
+  width: 13px;
+  height: 13px;
+  color: #8B8FD3;
+}
+
+.title-operation-name {
+  font-family: 'PingFang SC';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  color: #8B8FD3;
+}
+
+.content-box {
+  margin-top: 14px;
+}

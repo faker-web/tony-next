@@ -1,0 +1,13 @@
+.modal-btn-box {
+  height: 93px;
+  display: flex;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+.modal-btn-default {
+  margin-left: 20px;
+}

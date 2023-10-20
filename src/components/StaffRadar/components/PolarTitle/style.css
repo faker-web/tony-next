@@ -1,0 +1,35 @@
+.polar-title-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 56px;
+  border-radius: 99px;
+  background: #f9f9f9;
+  padding: 8px;
+}
+
+.polar-title-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 117px;
+  height: 40px;
+  /* background: #fff; */
+  border-radius: 99px;
+}
+
+.polar-title-icon {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+
+.polar-title-label {
+  margin-left: 3px;
+  font-family: 'PingFang SC';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}

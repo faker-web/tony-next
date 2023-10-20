@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  background: #f2f2f5;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+input::-webkit-input-placeholder { 
+  /* WebKit browsers，webkit内核浏览器 */
+  color: rgba(89, 90, 128, 0.3); 
+  font-size: 16px;
+  } 
+  input:-moz-placeholder { 
+  /* Mozilla Firefox 4 to 18 */ 
+  color: rgba(89, 90, 128, 0.3); 
+  font-size: 16px;
+  } 
+  input::-moz-placeholder { 
+  /* Mozilla Firefox 19+ */ 
+  color: rgba(89, 90, 128, 0.3); 
+  font-size: 16px;
+  } 
+  input:-ms-input-placeholder { 
+  /* Internet Explorer 10+ */ 
+  color: rgba(89, 90, 128, 0.3); 
+  font-size: 16px;
+}
+
+input:focus {  
+  outline: none; /* 隐藏outline */  
+  border: none; /* 隐藏边框 */  
+}
+
+textarea:focus {  
+  outline: none; /* 隐藏outline */  
+  border: none; /* 隐藏边框 */  
+}

@@ -1,0 +1,46 @@
+.table-tabs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 28px;
+  border-radius: 14px;
+  background: #fff;
+  padding: 3px;
+
+  border: 1px solid #ebebeb;
+}
+
+.table-tabs-box {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  height: 22px;
+  padding: 0 9px;
+  border-radius: 77px;
+  font-family: 'PingFang SC';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  color: #797E8A;
+}
+
+.table-tabs-box-select {
+  background: #E4E6FF;
+  font-family: 'PingFang SC';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 22px;
+  color: #545BFF;
+}
+
+.label-text {
+  flex: 1;
+  font-family: 'PingFang SC';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #333333;
+}

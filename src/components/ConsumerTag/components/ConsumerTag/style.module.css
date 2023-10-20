@@ -1,0 +1,39 @@
+.tag-list-box {
+  display: flex;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+
+.consumer-tag-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 8px;
+  height: 26px;
+  border-radius: 13px;
+  background-color: #f1f5ff;
+  margin-right: 10px;
+  margin-bottom: 10px;
+} 
+
+.consumer-add-box {
+  background: #FFFFFF;
+  border: 1px dashed #CCCEFF;
+}
+
+.consumer-tag-text {
+  font-family: 'PingFang SC';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #7479F2;
+} 
+
+.consumer-add-tag {
+  margin-right: 4px;
+}
+
+.consumer-delete-tag {
+  padding: 7px;
+}

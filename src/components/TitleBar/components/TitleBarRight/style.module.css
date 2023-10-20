@@ -1,0 +1,24 @@
+.staff-right-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-box-label {
+  font-family: 'PingFang SC';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #AFAFAF;
+  margin-bottom: 8px;
+}
+
+.consumption-use-text { 
+  margin-left: 5px;
+  font-family: 'PingFang SC';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: #545BFF;
+}

@@ -1,0 +1,48 @@
+.staff-row-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 26px;
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #f1f1f1;
+  margin-top: 12px;
+}
+
+.row-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.row-time {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #333333;
+}
+
+.row-name {
+  margin-left: 16px;
+  font-family: 'PingFang SC';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #797E8A;
+}
+
+.row-right {
+  font-family: 'PingFang SC';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #797E8A;
+}
+
+.row-right-costs {
+  margin-left: 20px;
+}

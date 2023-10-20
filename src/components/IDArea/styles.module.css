@@ -1,0 +1,8 @@
+.id-box {
+  display: flex;
+  align-items: center;
+}
+
+.id-text {
+  margin-right: 13px;
+}

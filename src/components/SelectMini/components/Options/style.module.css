@@ -1,0 +1,40 @@
+.options-box {
+  background: #FFFFFF;
+  border: 1px solid #F1F1F1;
+  box-shadow: 0px 9px 17px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  padding: 6px;
+}
+
+.options-item {
+  display: flex;
+  align-items: center;
+  padding: 5px 6px;
+  min-width: 113px;
+  height: 29px;
+
+  font-family: 'PingFang SC';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  color: #333333;
+}
+
+.options-title-item {
+  height: 36px;
+}
+
+.options-item-selected {
+  background: #F4F4FC;
+  border-radius: 6px;
+}
+
+.select-text, .select-title-tag-box {
+  flex: 1;
+}
+
+.select-img {
+  width: 10px;
+  height: 7px;
+}

@@ -1,0 +1,22 @@
+.staff-list-box {
+  margin-top: 18px;
+  width: 100%;
+  background: #FFFFFF;
+  border-radius: 22px;
+  padding: 16px 26px;
+}
+
+.staff-list-title {
+  display: flex;
+  align-items: center;
+}
+
+.staff-list-title-left {
+  display: flex;
+  flex: 1;
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #333333;
+}

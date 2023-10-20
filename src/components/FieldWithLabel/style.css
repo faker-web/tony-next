@@ -1,0 +1,26 @@
+.input-box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.input-label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.input-label-required {
+  color: #FF1212;
+  margin-right: 6px;
+}
+
+.input-label-text {
+  font-family: 'PingFang SC';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #333333;
+}

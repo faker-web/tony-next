@@ -1,0 +1,31 @@
+{
+  "name": "tony-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ant-design/cssinjs": "^1.17.2",
+    "@antv/g2": "^5.1.6",
+    "ahooks": "^3.7.8",
+    "antd": "^5.10.2",
+    "china-area-data": "^5.0.1",
+    "classnames": "^2.3.2",
+    "formik": "^2.4.5",
+    "lib-flexible": "^0.3.2",
+    "next": "13.5.6",
+    "qs": "^6.11.2",
+    "qss": "^3.0.0",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "13.5.6",
+    "postcss-pxtorem": "^6.0.0"
+  }
+}

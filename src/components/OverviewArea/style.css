@@ -1,0 +1,70 @@
+.overview-area-box {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 26px;
+  width: 100%;
+  height: 321px;
+  margin-top: 18px;
+  background: #fff;
+  border-radius: 22px;
+}
+
+.overview-area-container {
+  flex: 1;
+}
+
+.overview-area-title {
+  display: flex;
+  align-items: center;
+}
+
+.overview-main-title {
+  font-family: 'PingFang SC';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #333333;
+}
+
+.overview-subtitle-box {
+  display: flex;
+  align-items: center;
+  margin-left: 35px;
+}
+
+.overview-subtitle-icon {
+  margin-right: 2px;
+}
+
+.overview-subtitle-icon-select {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #545BFF;
+}
+
+.overview-subtitle-icon-disabled {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #C2C2C2;
+}
+
+.overview-subtitle-text-select {
+  font-family: 'PingFang SC';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #333333;
+}
+
+.overview-subtitle-text-disabled {
+  font-family: 'PingFang SC';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #797E8A;
+}

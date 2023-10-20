@@ -1,0 +1,21 @@
+.china-area-box {
+  position: relative;
+}
+
+.area-select {
+  width: 268px !important;
+  height: 40px !important;
+  background: #F4F4FA !important;
+  border: 1px solid rgba(211, 212, 247, 0.3) !important;
+  border-radius: 27px !important;
+  color: #27272F !important;
+}
+
+.area-select div {
+  width: 268px !important;
+  height: 40px !important;
+  background: #F4F4FA !important;
+  border: 1px solid rgba(211, 212, 247, 0.3) !important;
+  border-radius: 27px !important;
+  color: #27272F !important;
+}

@@ -1,0 +1,81 @@
+.sider-bar {
+  position: relative;
+  width: 70px;
+  min-height: 100vh;
+  background: #FFFFFF;
+  border-radius: 99px;
+  padding: 12px;
+  flex-shrink: 0;
+}
+
+.sider-bar-extend {
+  width: 180px;
+  border-radius: 22px;
+}
+
+.sider-bar-logo-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sider-bar-logo-text {
+  margin-left: 15px;
+  font-family: 'PingFang SC';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.sider-navigation {
+  display: flex;
+  flex-direction: column;
+  margin-top: 21px;
+}
+
+.sider-navigation-extend {
+  display: flex;
+  align-items: center;
+  padding: 9px;
+  width: 100%;
+  height: 46px;
+  border-radius: 12px;
+}
+
+.sider-navigation-fold {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 9px;
+  width: 100%;
+  height: 46px;
+  border-radius: 50%;
+}
+
+.sider-navigation-select {
+  background: #F4F4FC;
+}
+
+.navigation-box-text {
+  margin-left: 14px;
+  font-family: 'PingFang SC';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  color: #333333;
+}
+
+.sider-bar-control {
+  position: absolute;
+  bottom: 9px;
+  right: 9px;
+}
+
+.control-expand {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+}

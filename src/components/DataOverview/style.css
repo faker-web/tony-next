@@ -1,0 +1,41 @@
+.overview-box {
+  display: flex;
+  width: 100%;
+  margin-top: 16px;
+}
+
+.overview-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 33.3%;
+  margin-right: 18px;
+  height: 165px;
+  flex: 1;
+  background: #fff;
+  border-radius: 22px;
+}
+
+.overview-content:last-child {
+  margin-right: 0;
+}
+
+.overview-content-label {
+  margin-top: 47px;
+  font-family: 'PingFang SC';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #797E8A;
+}
+
+.overview-content-num {
+  margin-top: 10px;
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 22px;
+  color: #333333;
+}

@@ -1,0 +1,12 @@
+.staff-info-box {
+  display: flex;
+}
+
+.staff-info-left {
+  flex: 1;
+}
+
+.staff-info-right {
+  margin-left: 18px;
+  flex: 1;
+}

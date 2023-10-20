@@ -1,0 +1,28 @@
+.password-login-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 34px;
+}
+
+.forget-password-text {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 56px;
+  margin-top: 6px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: center;
+  color: #7B7D8A;
+}
+
+.field-box {
+  padding-top: 12px;
+}
+
+.button-box {
+  padding-top: 28px;
+}
